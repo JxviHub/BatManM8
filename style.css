@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway:ital,wght@0,100;1,100&display=swap');
+
+.texto {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 5px; 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.intro {
+    background-image: url("../img/header_background.jpeg");    
+    height: 100vh;
+    color: azure;
+    padding: 20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+#h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.cuerpo {
+    max-width: 39%;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#POST-CRÉDITOS {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    max-width: 68%;
+    padding: 300px;
+    margin: 0 auto;
+}
+
+a {
+    color: rgb(255, 200, 0);
+    text-decoration: none;
+}
+
+.carousel {
+	background-color:#ffffff;
+	color: rgb(0, 0, 0);
+	border-radius: 12px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.personajes {
+    border: 2px #000000 solid;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px #494949 solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+    .text {
+        font-size: 14px;
+    }
+    #h2 {
+        font-size: 27px;    
+    }
+    h3{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 55px;
+        padding: 10px;
+        margin-top: 30%;
+    }
+    #especial {
+        font-size: 20px;
+    }
+}
